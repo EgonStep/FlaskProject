@@ -13,9 +13,11 @@
 - No windows:
   - Acessar o diretório que contém o arquivo `hello.py`
   - Usar o comando `set FLASK_APP=hello.py`
+  - Usar o comando `set FLASK_ENV=development`
 - No Linux:
   - Acessar o diretório que contém o arquivo `hello.py`
   - Usar o comando `export FLASK_APP=hello.py`
+  - Usar o comando `export FLASK_ENV=development`
 - Rodar o Flask com o comando `flask run`
 - Acessar http://127.0.0.1:5000/
   
@@ -23,9 +25,11 @@
 - No windows:
   - Acessar o diretório que contém a pasta `flaskr`
   - Usar o comando `set FLASK_APP=flaskr`
+  - Usar o comando `set FLASK_ENV=development`
 - No Linux:
   - Acessar o diretório que contém a pasta `flaskr`
   - Usar o comando `export FLASK_APP=flaskr`
+  - Usar o comando `export FLASK_ENV=development`
 - Rodar o comando `flask init-db`
 - Rodar o comando `flask run`
 - Acessar http://127.0.0.1:5000/
