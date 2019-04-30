@@ -25,4 +25,3 @@ def show_serie_info(name,season):
 @app.route('/path/<path:subpath>')
 def show_path(subpath):
     return subpath
-
